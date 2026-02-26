@@ -1,11 +1,11 @@
-src/styles/style.css 
+
 :root {
   --blue: #2a6cff;
 }
 
 body {
   margin: 0;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   box-sizing: border-box;
 }
 
@@ -19,48 +19,53 @@ header {
   height: 60px;                   
   box-sizing: border-box;
 }
+
 .nav__list {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;                
 }
+
 .nav__item {
   margin-left: 25px; 
 }
+
 .nav__item:first-child {
   margin-left: 0;
 }
+
 .nav__link{
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 10px; 
   height: 60px;
-  position: relative; 
   display: block;
-  text-decoration: none;
   display: flex;      
   align-items: center; 
   position: relative;
 } 
+
 .nav__link:visited {
   color: rgb(62, 180, 212);
   text-decoration: none;
   font-size: 10px;           
 }
+
 .logo-link img {
   display: block;
   height: 20px;            
 }
+
 .main-header1{
     margin-top: 40px;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto;
     width: 1200px;
     height: 60px;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .main-header2{
     margin-left: auto;
     margin-right: auto;
@@ -79,6 +84,7 @@ header {
   height: 3px;            
   background-color: rgb(62, 180, 212);
 }
+
 .nav__link.is-active,
 .nav__link[data-qa="hover"] {
   color: rgb(62, 180, 212);
