@@ -1,5 +1,5 @@
 :root {
-  --blue: #0057ff;
+  --blue: #00acdc;
 }
 
 body {
@@ -8,11 +8,15 @@ body {
   font-weight: 500;
 }
 
+.logo-img {
+  display: block;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 48px;
+  padding: 0 50px;
 }
 
 .nav_list {
@@ -23,7 +27,7 @@ body {
 }
 
 .nav_item {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .nav_item:first-child {
@@ -43,7 +47,7 @@ body {
 
 .nav_link:hover,
 .nav_link.is-active,
-.nav_link[data-qa='hover'] {
+.nav_link[data-qa='hover']:hover {
   color: var(--blue);
 }
 
@@ -53,6 +57,6 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 3px;
+  height: 4px;
   background-color: var(--blue);
 }
